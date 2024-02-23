@@ -1,0 +1,64 @@
+
+Started GET /repertorio for :: ::ffff:127.0.0.1 at Fri Feb 23 2024 18:09:18 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 404 message:  Time response: 10 ms Request ID: [b7289277-24f1-410f-9560-73c84f92eaf6]
+
+Started GET /api/v1/canciones for :: ::ffff:127.0.0.1 at Fri Feb 23 2024 18:30:44 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 200 message:  Time response: 11 ms Request ID: [d8ce793c-400c-4bb5-84af-11df9f53d0dd]
+
+Started POST /api/v1/canciones for :: ::ffff:127.0.0.1 at Fri Feb 23 2024 18:31:51 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"id":3,"nombre":"Alondra","precio":300}
+Completed: 201 message:  Time response: 6 ms Request ID: [2002f691-171a-46b1-81c0-cd6fc0932bcd]
+
+Started GET /api/v1/canciones for :: ::ffff:127.0.0.1 at Fri Feb 23 2024 18:31:58 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"id":3,"nombre":"Alondra","precio":300}
+Completed: 200 message:  Time response: 9 ms Request ID: [c97d4307-3cc5-41d5-8bea-411cf23f7967]
+
+Started PUT /api/v1/canciones for :: ::ffff:127.0.0.1 at Fri Feb 23 2024 18:32:24 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"id":3,"nombre":"Ale","precio":500}
+Completed: 404 message:  Time response: 4 ms Request ID: [22109c67-21b3-4805-abed-24d8d9d077a3]
+
+Started GET /api/v1/canciones for :: ::1 at Fri Feb 23 2024 18:41:29 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 200 message:  Time response: 7 ms Request ID: [870265d4-9e3f-4a67-961d-f1f9980c1a3e]
+
+Started PUT /api/v1/:id/canciones for :: ::ffff:127.0.0.1 at Fri Feb 23 2024 18:45:28 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"id":3,"nombre":"Ale","precio":500}
+Completed: 404 message:  Time response: 3 ms Request ID: [17aec279-12eb-4cb1-ac04-ef1765ce1c10]
+
+Started PUT /api/v1/:id-canciones for :: ::ffff:127.0.0.1 at Fri Feb 23 2024 18:45:42 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"id":3,"nombre":"Ale","precio":500}
+Completed: 404 message:  Time response: 5 ms Request ID: [51d2a4d9-0679-4d50-be91-ac7c1ea33972]
+
+Started PUT /api/v1/:id&canciones for :: ::ffff:127.0.0.1 at Fri Feb 23 2024 18:45:49 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"id":3,"nombre":"Ale","precio":500}
+Completed: 404 message:  Time response: 4 ms Request ID: [78da6935-b9cf-4952-9491-ff594f56201f]
+
+Started PUT /api/v1/canciones/3 for :: ::ffff:127.0.0.1 at Fri Feb 23 2024 18:53:24 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"nombre":"Ale","precio":500}
+Completed: 200 message:  Time response: 10 ms Request ID: [bed812ee-9331-45a4-896d-305896acb6fb]
+
+Started GET /api/v1/canciones/ for :: ::ffff:127.0.0.1 at Fri Feb 23 2024 18:53:32 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"nombre":"Ale","precio":500}
+Completed: 200 message:  Time response: 7 ms Request ID: [b11e490b-d6fa-4c23-8880-d0c56a7762fa]
+
+Started GET /api/v1/canciones/ for :: ::ffff:127.0.0.1 at Fri Feb 23 2024 18:54:24 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"nombre":"Ale","precio":500}
+Completed: 200 message:  Time response: 8 ms Request ID: [86ec6c6a-1125-4d7f-ad83-da16ed0800cc]
+
+Started PUT /api/v1/canciones/2 for :: ::ffff:127.0.0.1 at Fri Feb 23 2024 18:54:51 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"id":2,"nombre":"Ale","precio":700}
+Completed: 200 message:  Time response: 6 ms Request ID: [fbc31ab9-b60f-42db-ac04-2258830d0d76]
+
+Started GET /api/v1/canciones/ for :: ::ffff:127.0.0.1 at Fri Feb 23 2024 18:54:57 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"id":2,"nombre":"Ale","precio":700}
+Completed: 200 message:  Time response: 9 ms Request ID: [c9645366-fbdc-4ce5-959b-589835b12ebf]
+
+Started DELETE /api/v1/canciones/2 for :: ::ffff:127.0.0.1 at Fri Feb 23 2024 18:55:11 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"id":2,"nombre":"Ale","precio":700}
+Completed: 200 message:  Time response: 7 ms Request ID: [4b6ccdae-808c-4a67-8ac7-8fbed8e35c94]
+
+Started GET /api/v1/canciones/ for :: ::ffff:127.0.0.1 at Fri Feb 23 2024 18:55:18 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"id":2,"nombre":"Ale","precio":700}
+Completed: 200 message:  Time response: 9 ms Request ID: [996a31e1-eae5-46e9-a1fb-c033c85e2da4]
