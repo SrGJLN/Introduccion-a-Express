@@ -1,0 +1,12 @@
+
+Started POST /canciones for :: ::ffff:127.0.0.1 at Sat Feb 24 2024 17:32:19 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"id":"1","name":"arjona"}
+Completed: 404 message:  Time response: 41 ms Request ID: [277d8a48-401d-45c0-b30e-09d365ee8e88]
+
+Started POST /api/v1/canciones for :: ::ffff:127.0.0.1 at Sat Feb 24 2024 17:35:17 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"id":"1","name":"arjona"}
+Completed: 201 message:  Time response: 11 ms Request ID: [9dd17fcd-9da8-4ebe-b091-9214672c6174]
+
+Started GET /api/v1/canciones for :: ::ffff:127.0.0.1 at Sat Feb 24 2024 17:37:44 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"id":"1","name":"arjona"}
+Completed: 200 message:  Time response: 20 ms Request ID: [7bebc7c4-c9c8-42d5-8317-51bff16c7653]
