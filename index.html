@@ -112,7 +112,7 @@
     tono.value = "";
   }
 
-  function nuevaCancion() {
+  async function nuevaCancion() {
     cancion;
     artista;
     tono;
@@ -124,7 +124,12 @@
       tono: tono.value,
     };
     console.log(data);
-    axios.post(url, data).then(() => getData());
+    try{
+     await axios.post(url, data).then(() => getData());
+    }catch (err){ 
+      console.log(err);
+      alert(`${err.response.data.error}`);
+    }
   }
 
   function eliminarCancion(i, id) {
